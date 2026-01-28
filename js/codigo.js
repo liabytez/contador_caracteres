@@ -1,7 +1,11 @@
 let textarea = document.getElementById("textarea")
+let counter = document.getElementById("count")
 
-countcharacter(
-      let total_length = this.value.length;
-    document.getElementById("char-length").innerText = total_length;
-)
+function countcharacter (textarea, counter) {
+  counter.innerText = textarea.value.length
+}
+
+textarea.addEventListener('input', function(){
+  countcharacter(textarea, counter)
+})
 
