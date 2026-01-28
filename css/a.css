@@ -1,0 +1,26 @@
+* {
+    margin: 1rem;
+}
+
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.countboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+  resize: none;
+}
